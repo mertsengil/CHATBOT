@@ -1,2 +1,2 @@
 CHATBOT
-![Alt text](Resim1.jpg)
+![My Image](Resim1.jpg)
