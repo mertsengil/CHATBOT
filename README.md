@@ -1,2 +1,2 @@
 CHATBOT
-![My Image](Resim1.jpg)
+![My Image](mertsengil/CHATBOT/Resim1.jpg)
