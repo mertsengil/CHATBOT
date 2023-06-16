@@ -25,6 +25,33 @@ Chatbots generally work by following the basic steps below:
 
 You need to get the embeddings of your content, and we do this with the "text-embedding-ada-002" model. Getting embeddings will help us identify the content that most closely matches the question asked.
 
+<p align="center">
+  <img src="https://github.com/mertsengil/CHATBOT/assets/89454774/c3610fa0-bab3-46b2-96cc-ff93a0236646" width="410" height="350"/>
+</p>
+
+The unique thing about this chatbot is that it is adaptable to any ecosystem. For this, it will be sufficient to take the embeddings of the data you will obtain from the website or any ecosystem and give it to the model.
+
+# CONCLUSION
+
+This project explores how chatbot technology and AI language models, specifically "text-embedding-ada-002" and "text-davinci-003", can improve user interaction and information access on a website. The study finds that these models significantly enhance the chatbot's ability to comprehend and respond to user queries.
+
+Chatbot technology, as demonstrated by this research, can increase efficiency, improve the overall user experience, and provide real-time support. The study also highlights that using AI language models can boost a chatbot's performance.
+
+Furthermore, this technology can benefit both small to medium businesses and large corporations by delivering services and products more effectively, thereby boosting customer satisfaction and reducing service costs.
+
+The project contributes to chatbot technology in the Turkish language, showcasing the benefits of using both local and international language models. However, like any technology, chatbots have limitations, including difficulties in understanding complex and ambiguous expressions.
+
+In conclusion, this research shows AI language models as a key tool in developing chatbot technology, which can enhance user experience and assist businesses in improving customer service. More research in this field could broaden the potential of chatbot technology.
+
+
+
+
+
+
+
+
+
+
 
 
 
