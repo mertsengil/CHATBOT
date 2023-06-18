@@ -22,7 +22,7 @@ def process_dataframe(df):
     return df
 
 def generate_text_embedding(text):
-    response = openai.Embedding.create(input=text, model="text-embedding-ada-002")
+    response = openai.Embedding.create(input=text, model="model")
     return response["data"][0]["embedding"]
 
 
@@ -30,7 +30,7 @@ def generate_response(input_text, df):
     input_embedding = generate_text_embedding(input_text)
     matched_content = find_best_match(input_embedding, df)
     response = openai.Completion.create(
-        model="text-davinci-003",
+        model="model",
         prompt=f"""You are a knowledgeable AI developed by OpenAI.
                         - question: "{input_text}"
                         - Content: "{matched_content['content']}"
